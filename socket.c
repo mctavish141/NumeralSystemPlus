@@ -1,3 +1,11 @@
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <string.h>
+#include <unistd.h>
+
 int main () {
     int socket_desc;
     struct sockaddr_in server;
